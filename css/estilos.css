@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: #EADDC4;
 }
 
 .isotipo img {
@@ -51,7 +52,7 @@ body {
 }
 
 .flex-home {
-  margin: 10px 40px 0px 40px;
+  margin: 0px 40px 0px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -60,6 +61,7 @@ body {
 
 .home {
   background-image: url('../img/nomad.jpg');
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,23 +72,29 @@ body {
 
 .home::before{
   content: '';
-  opacity: 0.5;
+  opacity: 80%;
 }
 
-.home h1{
-  font-family: "Century Gothic";
-  font-size: 40px;
-  font-weight: normal;
-  color: #573c14;
-  text-align: center;
+
+.home .boton{
+  color:black;
 }
+
+.home h2{
+  font-size: 40px;
+  color:#573C14;
+  font-family: 'Century Gothic', sans-serif;
+}
+
 
 .boton{
-  font-family: "Century Gothic";
-  font-size: 20px;
-  color: #573c14;
+  color:white;
+  font-family: 'Century Gothic', sans-serif;
   text-decoration: none;
   text-align: center;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
 }
 
 .boton:link{
@@ -96,11 +104,19 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-  
+}
+
+.marron{
+  background-color: #A67225;
+  width: 100px;
+  height: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  color:white;
 }
 
 .guias img{
-  max-width: 650px;
+  max-width: 800px;
   max-height: 450px;
 }
 
@@ -135,3 +151,65 @@ body {
   text-align: left;
 }
 
+.home-body h2{
+  margin-top: 60px;
+  font-size: 40px;
+  color:#573C14;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.home-body p{
+  color:#573C14;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 24px;
+}
+
+.home-body h1{
+  color:#573C14;
+  margin: 0px;
+  font-family: 'Verdana Pro Black', sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.producto img{
+  width: 300px;
+  height: 200px;
+}
+
+.home-productos h1{
+  color:#573C14;
+  margin-bottom: 20px;
+  font-family: 'Verdana Pro Black', sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.flex-productos {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-productos img{
+  margin-bottom: 10px;
+}
+
+.botonproductos{
+  color:white;
+  font-family: 'Century Gothic', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  background-color: #A67225;
+  text-decoration: none;
+  border-radius: 5px;
+  color:white;
+  padding: 10px 122px;
+}
+
+.flex-productos > div {
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+}
