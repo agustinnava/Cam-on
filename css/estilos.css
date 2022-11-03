@@ -11,10 +11,11 @@ html{
 }
 
 .header .isotipo img{
+
   max-width: 100px;
   max-height: 80px;
   background-color: transparent;
-  margin-left: 10px;
+  margin-left: 20px;
   padding-bottom: 5px;
 }
 
@@ -123,5 +124,28 @@ html{
   margin-right: 20px;
   margin-left: 20px;
 }
+
+.logotipofooter{
+  margin-top: 40px;
+  margin-left: 50px;
+  width: 150px;
+  height: 35px;
+}
+
+.footer a{
+  color:#573C14;
+  margin-bottom: 50px;
+  margin-right: 5px;
+}
+
+.socials{
+  margin-right: 50px;
+}
+
+.footer .row{
+  margin-bottom: 0px; 
+}
+
+
 
 
