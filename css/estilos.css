@@ -146,6 +146,35 @@ html{
   margin-bottom: 0px; 
 }
 
+.productos img{
+  height: 250px;
+  width: 350px;
+}
 
+.productos h1{
+  color:#573C14;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Verdana Pro Black', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+}
 
+.productos .row{
+  margin-bottom: 10px;
+}
 
+.botonproductos{
+  background-color: #A67225;
+  color:white;
+  width: 100px;
+  height: 20px;
+  padding: 10px 110px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Century Gothic', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+
+}
