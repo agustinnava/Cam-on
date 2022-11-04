@@ -178,3 +178,11 @@ html{
   font-size: 16px;
 }
 
+.barra{
+  border-top: 1px solid #573C14;
+  width: 1350px;
+height: 0px;
+left: 400px;
+top: 36px;
+}
+
