@@ -7,6 +7,10 @@
   margin: 0px;
 }
 
+.header{
+position: absolute;
+}
+
 .textohome{
   position: absolute;
   top: 15%;
