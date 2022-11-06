@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <link rel="stylesheet" href="css/headerfooter.css"/>
     <link rel="stylesheet" href="css/home.css"/>
-	<link rel="stylesheet" href="css/headerfooter.css"/>
     <link rel="stylesheet" href="css/materialize-social.css"/>
     <link rel="icon" href="img/isotipo.png"/>
     <title>Cam'On</title>
@@ -21,16 +21,16 @@
 
   <body>
 
-    <nav class="header">
-        <div class="nav-wrapper">
+    <nav class="header hoverable">
+        <div class="container nav-wrapper ">
           <a href="home.html" class="isotipo brand-logo"><img src="img/isotipo.png"/></a>
           <a href="home.html" class="logotipo brand-logo center"><img src="img/logotipo.png"/></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"> menu </i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="descubri.html"> Guías </a></li>
-            <li><a href="planificador.html"> Planificador </a></li>
-            <li><a href="tienda.html"> Tienda </a></li>
-            <li><a href="cuenta.html"> Cuenta </a></li>
+            <li><a class="flow-text" href="guias.html"> Guías </a></li>
+            <li><a class="flow-text" href="planificador.html"> Planificador </a></li>
+            <li><a class="flow-text" href="tienda.html"> Tienda </a></li>
+            <li><a class="flow-text" href="cuenta.html"> Cuenta </a></li>
           </ul>
         </div>
     </nav> 
@@ -43,66 +43,76 @@
     </ul>
 
      <div class="home">
-        <img src="img/nomad.jpg" alt="Guías" />
+        <img  class="responsive-img z-depth-3"src="img/home.jpg" alt="Guías" />
         <div class="textohome">
-          <h2 class="flow-text ">Planificá tu viaje por Argentina</h2>
-          <a class=" black-text botonhome waves-effect waves-light btn orange lighten-5" href=""> Empezar </a>
+          <h1 class="flow-text">Planificá tu viaje por Argentina</h1>
+          <a class="waves-effect waves-light btn hoverable" href=""> Empezar </a>
         </div>
     </div>
 
-    <div class="home-body">
-      <div class="row center-align section">
+
+    <div class="home-body section ">
+      <div class="container row center-align section hoverable">
         <div class="col s6 right-align">            
-          <div class="guias">
-            <img class="responsive-img" src="img/guias.jpg" alt="Guías" />
+          <div>
+            <img class="responsive-img z-depth-2" src="img/guias.jpg" alt="Guías" />
           </div>
         </div>
-        <div class="textoguias col s6 left-align">
+        <div class="col s6 left-align">
           <h2 class="flow-text">Nuestras</h2>
           <h1 class="flow-text">GUÍAS</h1>
           <p class ="flow-text">
             Toda la información necesaria para <br> disfrutar tu viaje al máximo.
           </p>
-          <a class="botonhome marron" href=""> Explorar </a>
+          <a class="waves-effect waves-light btn" href="guias.html">Explorar</a>
         </div>
       </div>
 
-      <div class="row center-align section">
+      <div class="container row center-align section hoverable">
         <div class="col s6 right-align">
           <h2 class="flow-text">Nuestro</h2>
           <h1 class="flow-text">PLANIFICADOR</h1>
           <p class="flow-text">
             Todo lo que necesitas para mantenerte <br> organizado en tus viajes.
           </p>
-          <a class="botonhome marron" href=""> Planificar </a>
+          <a class="waves-effect waves-light btn" href="planificador.html">Explorar</a>
         </div>
         <div class="col s6 left-align">            
-          <div class="guias">
-            <img class="responsive-img" src="img/planificador.jpg"  alt="Guías" />
+          <div>
+            <img class="responsive-img z-depth-2" src="img/planificador.jpg" alt="Guías" />
+          </div>
+        </div>
+      </div>
+
+
+    <div class="home-productos">
+      <div class="container center-align">
+        <h1 class="flow-text section">PPRODUCOS MAS VENDIDOS</h1>
+        <div class="row center-align ">
+          <div class="col s3 m3 hoverable">
+            <img class="responsive-img" src="img/producto1.jpg" alt="Guías" />
+            <div><a class="waves-effect waves-light btn" href=""> Comprar</a></div>
+          </div>
+          <div class="col s3 m3 hoverable">
+            <img class="responsive-img" src="img/producto2.jpg" alt="Guías" />
+            <div><a class="waves-effect waves-light btn" href=""> Comprar</a></div>
+          </div>
+          <div class="col s3 m3 hoverable">
+            <img class="responsive-img" src="img/producto3.jpg" alt="Guías" />
+            <div><a class="waves-effect waves-light btn" href=""> Comprar</a></div>
+          </div>
+          <div class="col s3 m3 hoverable">
+            <img class="responsive-img" src="img/producto4.jpg" alt="Guías" />
+            <div><a class="waves-effect waves-light btn" href=""> Comprar</a></div>
           </div>
         </div>
       </div>
     </div>
+</div>
 
-    <div class="productos section center-align">
-      <h1 class="flow-text">PPRODUCOS MAS VENDIDOS</h1>
-      <div class="row center-align">
-        <div class="col s3"><img class="responsive-img" src="img/camara.jpg"  alt="Guías" /></div>
-        <div class="col s3"><img class="responsive-img" src="img/mochila.jpg"  alt="Guías" /></div>
-        <div class="col s3"><img class="responsive-img" src="img/rinonera.jpg"  alt="Guías" /></div>
-        <div class="col s3"><img class="responsive-img" src="img/camara2.jpg"  alt="Guías" /></div>
-      </div>
-      <div class="row center-align ">
-        <div class="col s3"><a class="botonproductos" href=""> CÁMARA $200.00 </a></div>
-        <div class="col s3"><a class="botonproductos" href=""> MOCHILA $40.00 </a></div>
-        <div class="col s3"><a class="botonproductos" href=""> RIÑONER $10.00 </a></div>
-        <div class="col s3"><a class="botonproductos" href=""> CÁMARA $200.00 </a></div>
-      </div>
-      <div class="col s3 center-align section"><a class="botonhome marron" href=""> Tienda </a></div>
-    </div>
-
+</div>
     <footer class="page-footer orange lighten-5">
-      <div class="footer">
+      <div class="container footer">
         <div class="row">
           <div class="col l6 s12">
             <a href="#!"><img class="logotipofooter" src="img/logotipo.png"/></a>
@@ -110,8 +120,8 @@
           <div class="col l4 offset-l2 s12 right-align">
             <div class="socials">
             <ul>
-              <a class="brown-text" href="#!">Nosotros</a>
-              <a class="brown-text" href="#!">Contacto</a>
+              <a href="#!">Nosotros</a>
+              <a href="#!">Contacto</a>
             </ul>
               <a class="waves-effect waves-light btn-floating social facebook">
               <i class="fa fa-facebook"></i> Sign in with facebook</a>

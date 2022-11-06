@@ -1,0 +1,33 @@
+html{
+    background-color: white;
+}
+
+.guias h1{
+    font-size: 28px;
+    font-family: 'Verdana Pro Black', sans-serif;
+    text-align: left;
+}
+
+.buscador h1{
+    font-size: 24px;
+    font-family: 'Verdana Pro Black', sans-serif;
+
+}
+
+.guias img{
+    max-height: 200px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.guias a{
+    padding: 0px 7rem;
+    font-family: 'Verdana Pro Black', sans-serif;
+    background-color: #795548;
+    margin-bottom: 15px;
+}
+
+.guias a:hover{
+    color: black;
+    background-color: antiquewhite;
+  }
