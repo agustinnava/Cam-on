@@ -31,7 +31,7 @@
     color: #573C14;
   }
 
-  .cordoba{
+  .hotel-img{
     margin-top: 2em;
     width: 100%!important;
     height: 100%!important;
@@ -48,9 +48,27 @@
     margin-bottom: 15px;
   }
 
-  .btn a:hover{
+  .out{
+    padding: 5px 2rem;
+    font-size: 20px;
+    color: antiquewhite!important;
+    font-family: 'Verdana Pro Black', sans-serif;
+    background-color: #795548!important;
+    margin-bottom: 15px;
+  }
+
+  .in{
+    padding: 5px 2rem;
+    color:  #795548!important;
+    font-size: 20px;
+    font-family: 'Verdana Pro Black', sans-serif;
+    background-color: antiquewhite!important;
+    margin-bottom: 15px;
+  }
+
+  .btn:hover{
     color: black;
-    background-color: antiquewhite;
+    background-color: antiquewhite!important;
   }
 
   .divider{
@@ -85,4 +103,20 @@
     margin-top: 0!important;
     font-size: 25px!important;
     display: inline-block!important;
+  }
+
+  .ubi-ofertas{
+    position: absolute;
+    top: 70%;
+    margin-top: 0!important;
+    font-size: 25px!important;
+    display: inline-block!important;
+  }
+
+  .check{
+    margin-bottom: 3em!important;
+  }
+
+  .more{
+    left: 35%!important;
   }

@@ -44,6 +44,11 @@
     border-bottom: 3px solid #EADDC4;
   }
 
+  .card-image a{
+    padding: 0!important;
+    font-family: none!important;
+  }
+  
   .container .descubri{
 	  margin-top: 50px;
   }
