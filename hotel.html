@@ -46,23 +46,42 @@
     <div class="container desc">
         <div class="row">
             <div class="col s6 info">
-                <span class="flow-text">Descubrí</span>
-                <h1 class="flow-text">CÓRDOBA</h1>
+                <span class="flow-text">Hotel</span>
+                <h1 class="flow-text">YRIGOYEN 111</h1>
                 <div class="divider"></div>
-                <p class="black-text flow-text">Córdoba, la capital de la provincia argentina del mismo nombre, es
-                    conocida
-                    por su arquitectura colonial española.
-                    Alberga la Manzana Jesuítica, un complejo del siglo XVII con claustros activos, iglesias y el
-                    campus original de la
-                    Universidad Nacional de Córdoba, una de las universidades más antiguas de Sudamérica. El punto
-                    central de la ciudad es la
-                    Plaza San Martín y la Catedral de Córdoba de estilo neobarroco.</p>
-                <a href="#" class="btn waves-effect waves-light z-depth-4">Añadir a planificador</a>
+                <div class="col s6">
+                    <h3 class="flow-text center-align">Check-in</h3>
+                    <input type="text" class="timepicker" placeholder="horario check-in">
+                    <input type="text" class="datepicker" id="datepicker" placeholder="Escoge la fecha de ingreso">
+                </div>
+                <div class="col s6">
+                    <h3 class="flow-text center-align">Check-out</h3>
+                    <input type="text" class="timepicker" placeholder="horario check-out">
+                    <input type="text" class="datepicker" id="datepicker" placeholder="Escoge la fecha de salida">
+                </div>
             </div>
             <div class="col s6">
-                <img src="img/cordoba.png" class="cordoba responsive-img z-depth-5">
+                <img src="img/hotel1.png" class="cordoba responsive-img z-depth-5">
             </div>
         </div>
+
+        <div class="divider row"></div>
+
+        <div>
+            <h2 class="flow-text">UBICACIÓN</h2>
+            <div>
+                <i class="medium material-icons">location_on</i>
+                <p class="flow-text ubi">Avenida Hipolito Yrigoyen 111, Córdoba X5000JHB Argentina</p>
+            </div>
+            <div class="video-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2862.9802498307804!2d-64.18976919359166!3d-31.423038384058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a285c7dacddf%3A0x1edc5a7844a96778!2sAv.%20Hip%C3%B3lito%20Yrigoyen%20111%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1667834208247!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </div>
 
     <footer class="page-footer orange lighten-5">
         <div class="container footer">
@@ -89,6 +108,7 @@
     </footer>
 
     <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/hotel.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 

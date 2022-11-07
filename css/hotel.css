@@ -1,0 +1,88 @@
+.hotel h2, h1{
+    font-family: 'Verdana Pro Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;  
+    letter-spacing: -0.015em;
+    color: #573C14;
+  }
+
+ .hotel h1{
+    font-size: 40px;
+    margin: 0;
+  }
+
+ .hotel p{
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    color: #573C14;
+  }
+
+  h3{
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    color: #573C14;
+  }
+
+  .cordoba{
+    margin-top: 2em;
+    width: 100%!important;
+    height: 100%!important;
+  }
+
+  .container{
+	  margin-top: 50px;
+  }
+  
+  .btn{
+    padding: 0px 2rem;
+    font-family: 'Verdana Pro Black', sans-serif;
+    background-color: #795548!important;
+    margin-bottom: 15px;
+  }
+
+  .btn a:hover{
+    color: black;
+    background-color: antiquewhite;
+  }
+
+  .divider{
+    background-color: #795548!important;
+  }
+
+  span{
+    font-family: 'Century Gothic';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #000000;
+  }
+
+  .info{
+    padding-right: 3em!important;
+  }
+
+  iframe{
+    height: 450px!important;
+  }
+
+  .video-container{
+    padding-bottom: 40%!important;
+  }
+
+  .ubi{
+    position: absolute;
+    bottom: 32%;
+    margin-top: 0!important;
+    font-size: 25px!important;
+    display: inline-block!important;
+  }
