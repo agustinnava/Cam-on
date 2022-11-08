@@ -5,7 +5,7 @@
     font-size: 30px;
     line-height: 36px;  
     letter-spacing: -0.015em;
-    color: #573C14;
+    color: #795548;
   }
 
  .hotel h1{
@@ -19,7 +19,7 @@
     font-size: 20px;
     line-height: 25px;
     letter-spacing: -0.015em;
-    color: #573C14;
+    color: black;
   }
 
   h3{
@@ -28,7 +28,7 @@
     font-size: 20px;
     line-height: 25px;
     letter-spacing: -0.015em;
-    color: #573C14;
+    color: #795548;
   }
 
   .hotel-img{
@@ -99,7 +99,7 @@
 
   .ubi{
     position: absolute;
-    bottom: 32%;
+    bottom: 28%;
     margin-top: 0!important;
     font-size: 25px!important;
     display: inline-block!important;
@@ -119,4 +119,17 @@
 
   .more{
     left: 35%!important;
+  }
+
+  .carousel{
+    margin-top: 2em;
+    height: 350px!important;
+  }
+
+  .datepicker-date-display, .timepicker-digital-display{
+    background-color: #795548!important;
+  }
+
+  .datepicker-cancel, .datepicker-done, .timepicker-close{
+    color: #795548!important;
   }
