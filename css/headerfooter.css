@@ -59,4 +59,8 @@ html{
   margin-bottom: 0px; 
 }
 
+.container .divider{
+  background-color: #79554880;
+}
+
 

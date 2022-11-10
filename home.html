@@ -7,10 +7,12 @@
 	  <link rel="stylesheet" href="css/headerfooter.css"/>
     <link rel="stylesheet" href="css/home.css"/>
     <link rel="stylesheet" href="css/materialize-social.css"/>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+    rel="stylesheet"  type='text/css'>
     <link rel="icon" href="img/isotipo.png"/>
     <title>Cam'On</title>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
     <link href="https://fonts.cdnfonts.com/css/verdana-pro-cond" rel="stylesheet"/>
@@ -21,6 +23,7 @@
 
   <body>
 
+    <!-- Header -->
     <nav class="header hoverable">
         <div class="container nav-wrapper ">
           <a href="home.html" class="isotipo brand-logo"><img src="img/isotipo.png"/></a>
@@ -34,7 +37,8 @@
           </ul>
         </div>
     </nav> 
-  
+
+    <!-- Header sidebar -->
     <ul class="sidenav" id="mobile-demo">
       <li><a href="descubri.html"> Guías </a></li>
       <li><a href="planificador.html"> Planificador </a></li>
@@ -46,11 +50,31 @@
         <img  class="responsive-img z-depth-3"src="img/home.jpg" alt="Guías" />
         <div class="textohome">
           <h1 class="flow-text">Planificá tu viaje por Argentina</h1>
-          <a class="waves-effect waves-light btn hoverable" href=""> Empezar </a>
+          <a class="waves-effect waves-light btn hoverable modal-trigger" href="#modal1"> Empezar </a>
         </div>
     </div>
 
+    <!-- Modal login -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <img class="center-align logotipomodal" src="img/logotipo.png"/>
+        <h4 class="center-align">Iniciá sesión para acceder a todas nuestras herramientas</h4>
+        
+      <div class="center-align ">
+        <a class="waves-effect waves-light btn valign-wrapper" href="guias.html"> <i class="fa fa-facebook left-align" title="Facebook"></i> Continuar con Facebook</a><br>
+        <a class="waves-effect waves-light btn valign-wrapper" href="guias.html"><i class="	fa fa-google" title="Google"></i> Continuar con Google </a><br>
+        <a class="waves-effect waves-light btn valign-wrapper" href="guias.html"><i class="fa fa-envelope" title="Mail"></i> Continuar con Correo </a>
+      </div>
 
+        <p class="center-align"> Al continuar, confirmás tu conformidad con nuestras 
+          Condiciones de Uso y confirmás que leíste nuestra Declaración de Privacidad y Cookies.</p>
+
+
+      </div>
+
+    </div>
+
+    <!-- Body guias -->
     <div class="home-body section ">
       <div class="container row center-align section hoverable">
         <div class="col s6 right-align">            
@@ -68,6 +92,7 @@
         </div>
       </div>
 
+    <!-- Body planificador -->
       <div class="container row center-align section hoverable">
         <div class="col s6 right-align">
           <h2 class="flow-text">Nuestro</h2>
@@ -84,33 +109,49 @@
         </div>
       </div>
 
+      <div class="container"> 
+        <div class="row">
+          <div class="col s12 m4 l3"><div class="divider"></div></div>
+          <div class="col s12 m4 l6"><h1 class="flow-text section center-align">PRODUCTOS MAS VENDIDOS</h1></div>
+          <div class="col s12 m4 l3"><div class="divider"></div></div>
+        </div>
+      </div>
 
+    <!-- Slider productos -->
     <div class="home-productos">
       <div class="container center-align">
-        <h1 class="flow-text section">PRODUCTOS MAS VENDIDOS</h1>
-        <div class="row center-align ">
-          <div class="col s3 m3 hoverable">
-            <img class="responsive-img" src="img/producto1.jpg" alt="Guías" />
-            <div><a class="waves-effect waves-light btn" href=""> Comprar</a></div>
-          </div>
-          <div class="col s3 m3 hoverable">
-            <img class="responsive-img" src="img/producto2.jpg" alt="Guías" />
-            <div><a class="waves-effect waves-light btn" href=""> Comprar</a></div>
-          </div>
-          <div class="col s3 m3 hoverable">
-            <img class="responsive-img" src="img/producto3.jpg" alt="Guías" />
-            <div><a class="waves-effect waves-light btn" href=""> Comprar</a></div>
-          </div>
-          <div class="col s3 m3 hoverable">
-            <img class="responsive-img" src="img/producto4.jpg" alt="Guías" />
-            <div><a class="waves-effect waves-light btn" href=""> Comprar</a></div>
-          </div>
+        <div class="carousel">
+          <a class="carousel-item hoverable" href="#one!">
+              <img src="img/producto1.jpg">
+              CAMARA
+          </a>
+          <a class="carousel-item hoverable" href="#two!">
+              <img src="img/producto3.jpg">
+              MOCHILA
+          </a>
+          <a class="carousel-item hoverable" href="#three!">
+              <img src="img/producto2.jpg">
+              CAMARA
+          </a>
+          <a class="carousel-item hoverable" href="#four!">
+              <img src="img/producto1.jpg">
+              CAMARA
+          </a>
+          <a class="carousel-item hoverable" href="#five!">
+              <img src="img/producto4.jpg">
+              RIÑONERA
+          </a>
         </div>
+        <a class="waves-effect waves-light btn" href="tienda.html">Tienda</a>
       </div>
     </div>
 </div>
 
 </div>
+    <!-- Footer -->
+    <div class="container">
+    <div class="divider"></div>
+    </div>
     <footer class="page-footer orange lighten-5">
       <div class="container footer">
         <div class="row">
@@ -123,11 +164,11 @@
               <a href="#!">Nosotros</a>
               <a href="#!">Contacto</a>
             </ul>
-              <a class="waves-effect waves-light btn-floating social facebook">
+              <a class="waves-effect waves-light btn-floating social facebook blue darken-4 hoverable">
               <i class="fa fa-facebook"></i> Sign in with facebook</a>
-              <a class="waves-effect waves-light btn-floating social twitter">
+              <a class="waves-effect waves-light btn-floating social twitter blue lighten-1 hoverable">
               <i class="fa fa-twitter"></i> Sign in with twitter</a>
-              <a class="waves-effect waves-light btn-floating social instagram">
+              <a class="waves-effect waves-light btn-floating social instagram indigo lighten-2 hoverable">
               <i class="fa fa-instagram"></i> Sign in with instagram</a>
             </div>
           </div>
@@ -137,5 +178,7 @@
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
   </body>
 </html>
