@@ -2,26 +2,23 @@
     font-family: 'Verdana Pro Black', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 36px;  
     letter-spacing: -0.015em;
     color: #795548;
   }
 
  .descubri h1{
-    font-size: 40px;
+    font-size: 28px;
     margin: 0;
   }
 
  .descubri p{
     font-family: 'Century Gothic';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 25px;
     display: flex;
     align-items: center;
-    letter-spacing: -0.015em;
     color: black;
   }
 
@@ -35,8 +32,6 @@
 
   .card-title{
     padding-bottom: 10px!important;
-    font-style: normal;
-    font-weight: 700!important;
     font-size: 24px;
     line-height: 36px;
     color: #FFFFFF;
@@ -56,10 +51,11 @@
   }
   
   .desc a{
-    padding: 0px 2rem;
+    padding: 0px 1.8rem;
     font-family: 'Verdana Pro Black', sans-serif;
     background-color: #795548;
     margin-bottom: 15px;
+    font-size: 12px;
   }
 
   .desc a:hover{

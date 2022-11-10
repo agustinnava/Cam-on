@@ -9,16 +9,13 @@
   }
 
  .hotel h1{
-    font-size: 40px;
+    font-size: 28px;
     margin: 0;
   }
 
  .hotel p{
     font-family: 'Century Gothic';
-    font-weight: 400;
     font-size: 20px;
-    line-height: 25px;
-    letter-spacing: -0.015em;
     color: black;
   }
 
@@ -46,6 +43,7 @@
     font-family: 'Verdana Pro Black', sans-serif;
     background-color: #795548!important;
     margin-bottom: 15px;
+    font-size: 12px;
   }
 
   .out{
@@ -101,15 +99,15 @@
     position: absolute;
     bottom: 28%;
     margin-top: 0!important;
-    font-size: 25px!important;
+    font-size: 20px!important;
     display: inline-block!important;
   }
 
   .ubi-ofertas{
     position: absolute;
-    top: 70%;
+    top: 68%;
     margin-top: 0!important;
-    font-size: 25px!important;
+    font-size: 20px!important;
     display: inline-block!important;
   }
 
