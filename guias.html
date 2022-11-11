@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
     <link rel="stylesheet" href="css/headerfooter.css"/>
     <link rel="stylesheet" href="css/guias.css"/>
     <link rel="stylesheet" href="css/materialize-social.css"/>
@@ -14,7 +15,6 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
     <link href="https://fonts.cdnfonts.com/css/verdana-pro-cond" rel="stylesheet"/>
     <link href="https://fonts.cdnfonts.com/css/century-gothic" rel="stylesheet"/>
     <!--Let browser know website is optimized for mobile-->
@@ -44,16 +44,30 @@
       <li><a href="cuenta.html"> Cuenta </a></li>
     </ul>
 
+
+
+
     <div class="container buscador center-align">
-        <h1 class="flow-text section">DESTINOS</h1>
-        <form>
-            <div class="container input-field">
-              <input id="search" type="search" required>
-              <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-              <i class="material-icons">close</i>
+        <h1 class="flow-text">DESTINOS</h1>
+
+        <div class="container select"> 
+          <div class="row">
+            <div class="col s12 m4"></div>
+            <div class="col s10 m4">          <div class="input-field">
+              <select >
+                <option value="" disabled selected><i class="fa fa-facebook left-align" title="Facebook"></i>¿Donde querés ir?</option>
+                <option value="1">Lugares Cerca</option>
+                <option value="2">Playa</option>
+                <option value="3">Ciudad</option>
+                <option value="3">Montaña</option>
+              </select>
             </div>
-          </form>
-    </div>
+          </div>
+            <div class="col s12 m4"></div>
+          </div>
+        </div>
+      </div>
+
 
 
     <div class="guias left-align">
@@ -268,5 +282,6 @@
 
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/guias.js"></script>
 </body>
 </html>
