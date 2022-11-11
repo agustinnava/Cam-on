@@ -8,7 +8,7 @@ html{
 
 .home{
   text-align: center;
-  margin: 0px;
+  margin: 0rem;
 }
 
 .header{
@@ -23,14 +23,15 @@ position: absolute;
 }
 
 .textohome h1{
-  font-size: 34px;
+  font-size: 2.5rem;
   font-family: "Century Gothic";
+  margin-top: 3rem;
 }
 
 .textohome a{
   font-family: 'Verdana Pro Black', sans-serif;
   background-color: #795548;
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 .textohome a:hover{
@@ -39,33 +40,44 @@ position: absolute;
 }
 
 .home-body h1{
-  font-size: 28px;
+  font-size: 2rem;
   font-family: 'Verdana Pro Black', sans-serif;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
 }
 
 .home-body h2{
-  font-size: 28px;
+  font-size: 2rem;
   font-family: "Century Gothic";
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
 }
 
 .home-body p{
-  font-size: 22px;
+  font-size: 1.4rem;
   font-family: "Century Gothic";
-  margin-top: 0px;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
 }
 
-.home-body a{
+.home-body .explorar{
   font-family: 'Verdana Pro Black', sans-serif;
   background-color: #795548;
-  font-size: 12px;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .home-body a:hover{
   color: black;
+  background-color: transparent;
+}
+
+.home-body .explorar:hover{
   background-color: antiquewhite;
+}
+
+.home-body img{
+  margin-top: 1rem;
 }
 
 .carousel {
@@ -74,7 +86,7 @@ position: absolute;
 
 .carousel-item img{
   height: 82%;
-  margin-bottom: 8px;
+  margin-bottom: 0.6rem;
 }
 
 .carousel-item {
@@ -109,8 +121,8 @@ position: absolute;
 }
 
 .logotipomodal{
-  width:400px;
-  padding-left: 25%;
+  width: 25rem;
+  padding-left: 29%;
   margin-bottom: 2rem;
 }
 
@@ -128,7 +140,7 @@ position: absolute;
 }
 
 .modal h4{
-  font-size: 24px;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
 }
 
@@ -141,3 +153,21 @@ position: absolute;
   background-color: #79554880;
 }
 
+.home-slider h1{
+  font-size: 2rem;
+  font-family: 'Verdana Pro Black', sans-serif;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-slider a{
+  font-family: 'Verdana Pro Black', sans-serif;
+  background-color: #795548;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.home-slider a:hover{
+  color: black;
+  background-color: antiquewhite;
+}
