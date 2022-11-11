@@ -3,4 +3,3 @@ document.addEventListener('DOMContentLoaded', function() {
     var options;
     var instances = M.Modal.init(elems, options);
   });
-

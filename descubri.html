@@ -59,7 +59,7 @@
                     Universidad Nacional de Córdoba, una de las universidades más antiguas de Sudamérica. El punto
                     central de la ciudad es la
                     Plaza San Martín y la Catedral de Córdoba de estilo neobarroco.</p>
-                <a href="#" class="btn waves-effect waves-light z-depth-2">Añadir a planificador</a>
+                <a href="#modal1" class="btn waves-effect waves-light z-depth-2 modal-trigger">Añadir a planificador</a>
             </div>
             <div class="col s6 cordoba">
                 <div class="carousel carousel-slider center z-depth-5">
@@ -75,6 +75,46 @@
                     <div class="carousel-item" href="#five!">
                         <img src="img/cordoba2.jpg" width="100%">
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4 class="left-align">Añadir a planificador</h4>
+                <div class="divider row"></div>
+                <div class="row hoverable padding">
+                    <a href="#modal2" class="modal-trigger">
+                    <i class="medium material-icons brown-text col s1" style="width: 65px; border-radius: 5px;">add</i>
+                    <p class="col s10">Crear viaje nuevo</p>
+                    </a>
+                </div>
+                <div class="row hoverable padding">
+                    <a href="#modal1" class="modal-trigger">
+                    <img src="img/viaje1.png" class="col s2">
+                    <p class="col s10">Viaje 1</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal2" class="modal" style="height: 45%!important;">
+            <div class="modal-content">
+                <h4 class="left-align">Crear viaje nuevo</h4>
+                <div class="divider row"></div>
+                <label for="nombre">Nombre</label>
+                <input type="text">
+                <div class="row hoverable padding">
+                    <a href="plafinicador.html">
+                    <i class="medium material-icons brown-text col s1" style="width: 65px; border-radius: 5px;">add</i>
+                    <p class="col s10">Crear viaje personalizado</p>
+                    </a>
+                </div>
+                <div class="row hoverable padding">
+                    <a href="#modal1" class="z-depth-2 modal-trigger">
+                    <img src="img/viaje2.png" class="col s2">
+                    <p class="col s10">Viaje recomendado</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -207,21 +247,19 @@
                   <a href="#!">Nosotros</a>
                   <a href="#!">Contacto</a>
                 </ul>
-                  <a class="waves-effect waves-light btn-floating social facebook blue darken-4 hoverable">
+                  <a class="waves-effect waves-light btn-floating social black hoverable">
                   <i class="fa fa-facebook"></i> Sign in with facebook</a>
-                  <a class="waves-effect waves-light btn-floating social twitter blue lighten-1 hoverable">
+                  <a class="waves-effect waves-light btn-floating social black hoverable">
                   <i class="fa fa-twitter"></i> Sign in with twitter</a>
-                  <a class="waves-effect waves-light btn-floating social instagram indigo lighten-2 hoverable">
+                  <a class="waves-effect waves-light btn-floating social black hoverable">
                   <i class="fa fa-instagram"></i> Sign in with instagram</a>
                 </div>
               </div>
             </div>
              </div>
         </footer>
-
-    <script type="text/javascript" src="js/descubri.js"></script>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/descubri.js"></script>
 </body>
-
 </html>

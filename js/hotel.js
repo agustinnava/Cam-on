@@ -25,4 +25,3 @@ document.addEventListener('DOMContentLoaded', function() {
     var options;
     var instances = M.Timepicker.init(elems, options);
   });
-
