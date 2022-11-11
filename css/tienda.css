@@ -1,0 +1,45 @@
+html{
+    
+  background-color:white;
+    
+  }
+
+  .botonCompras a{
+    
+   padding-left: 30px;
+   padding-right: 30px;
+   font-family: "Century Gothic";
+ 
+  }  
+   
+.home-productos  {
+  
+  
+  padding-top: 185px;
+
+}
+.col img{
+  width: 150px;
+  height: 150px;
+}
+
+.navDos{
+
+  margin-top: 100px;
+  padding-left: 34%;
+
+
+}
+.col img {
+
+  margin-top: 40px;
+  width: 150px;
+  height: 35px;
+
+}
+
+.botonCompra{
+  float: right;
+  margin-top: 13px;
+}
+
