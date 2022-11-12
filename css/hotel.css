@@ -125,3 +125,17 @@
   .datepicker-cancel, .datepicker-done, .timepicker-close{
     color: #795548!important;
   }
+
+  .timepicker-span-hours, .timepicker-span-minutes{
+    font-family: 'Verdana Pro Black', sans-serif;
+  }
+
+  .date-text{
+    font-family: 'Verdana Pro Black', sans-serif!important;
+    font-size: 2.0rem!important;
+    color: antiquewhite!important;
+  }
+
+  .timepicker-plate{
+    background-color: antiquewhite!important;
+  }
