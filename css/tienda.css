@@ -3,33 +3,12 @@ html{
   background-color:white;
     
   }
-
-  .botonCompras a{
-    
-   padding-left: 30px;
-   padding-right: 30px;
-   font-family: "Century Gothic";
- 
-  }  
    
-.home-productos  {
-  
-  
-  padding-top: 185px;
-
-}
 .col img{
   width: 150px;
   height: 150px;
 }
 
-.navDos{
-
-  margin-top: 100px;
-  padding-left: 34%;
-
-
-}
 .col img {
 
   margin-top: 40px;
@@ -38,8 +17,34 @@ html{
 
 }
 
-.botonCompra{
-  float: right;
-  margin-top: 13px;
+.botonCompras{
+  text-align: center;
 }
 
+.botonCompras a{
+  padding: 0px 1.8rem;
+  font-family: 'Verdana Pro Black', sans-serif;
+  background-color: #795548;
+  font-size: 12px;
+}
+
+.botonCompras a:hover{
+  color: black;
+  background-color: antiquewhite;
+}
+
+.home-body img{
+  margin: 0;
+  width: 100%;
+}
+
+.product{
+  position: relative;
+  padding: 20px!important;
+}
+
+.shop-icon{
+  position:absolute;
+  top: 5%!important;
+  right: 5%!important;
+}
