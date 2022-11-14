@@ -1,0 +1,77 @@
+html{
+    background-color: white;
+  }
+
+  .planificador h1{
+    font-size: 2rem;
+    font-family: 'Verdana Pro Black', sans-serif;
+    margin-top: 2rem;
+  }
+
+  .planificador h3{
+    font-size: 1rem;
+    font-family: "Century Gothic";
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .planificador h2{
+    font-size: 1.5rem;
+    font-family: "Century Gothic";
+  }
+
+  .planificador h4{
+    font-size: 1.2rem;
+    font-family: "Century Gothic";
+    padding-top: 1rem;
+  }
+
+
+
+  .video-container{
+    margin-top: 2rem;
+
+  }
+
+  .planificador{
+    margin-top: 2rem;
+  }
+
+  .planificador a{
+    margin-top: 2rem;
+  }
+
+  .datepicker-date-display, .timepicker-digital-display{
+    background-color: #795548!important;
+  }
+
+  .datepicker-cancel, .datepicker-done, .timepicker-close{
+    color: #795548!important;
+  }
+
+  .timepicker-span-hours, .timepicker-span-minutes{
+    font-family: 'Verdana Pro Black', sans-serif;
+  }
+
+  .date-text{
+    font-family: 'Verdana Pro Black', sans-serif!important;
+    font-size: 2.0rem!important;
+    color: antiquewhite!important;
+  }
+
+  .timepicker-plate{
+    background-color: antiquewhite!important;
+  }
+
+  .dividervertical{
+    position:absolute;
+    margin-left: 1.3rem;
+    top:35%;
+    bottom:50%;
+    border-left:1px solid #795548;
+}
+
+.avion{
+    padding-top: 6rem;
+    padding-left: 0.8rem;
+}
