@@ -1,0 +1,55 @@
+html{
+    background-color: white;
+}
+
+.header{
+    position: relative;
+}
+
+.nosotros h1{
+    font-size: 2rem;
+    font-family: 'Verdana Pro Black', sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.nosotros h2{
+    font-size: 1.5rem;
+    font-family: "Century Gothic";
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+
+.nosotros p{
+    font-size: 1.4rem;
+    font-family: "Century Gothic";
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.textonosotros h1{
+    font-size: 2rem !important;
+    font-family: 'Verdana Pro Black', sans-serif;
+    margin-top: 2.6rem!important;
+    margin-bottom: 0rem !important;
+    padding: 0rem;
+}
+
+.textonosotros .divider{
+    margin-top: 4rem;
+}
+
+.home-body img{
+    width: 100%;
+    height: 25rem !important;
+}
+
+.home-body h1{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.home-body p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
