@@ -28,7 +28,7 @@ html{
 }
 
 .textonosotros h1{
-    font-size: 2rem !important;
+    font-size: 1.6rem !important;
     font-family: 'Verdana Pro Black', sans-serif;
     margin-top: 2.6rem!important;
     margin-bottom: 0rem !important;
@@ -36,7 +36,7 @@ html{
 }
 
 .textonosotros .divider{
-    margin-top: 4rem;
+    margin-top: 3.5rem;
 }
 
 .home-body img{

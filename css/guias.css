@@ -65,3 +65,11 @@ html{
     padding: 0px;
 }
 
+
+.textodestinos .divider{
+    margin-top: 3.8rem;
+}
+
+.buscador .row{
+    margin-bottom: 0px;
+}

@@ -79,3 +79,15 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
 .subject:active{
     color: black!important;
 }
+
+.textonosotros h1{
+    font-size: 1.6rem !important;
+    font-family: 'Verdana Pro Black', sans-serif;
+    margin-top: 2.6rem!important;
+    margin-bottom: 0rem !important;
+    padding: 0rem;
+}
+
+.textonosotros .divider{
+    margin-top: 3.5rem;
+}
