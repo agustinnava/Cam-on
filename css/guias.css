@@ -55,4 +55,9 @@ html{
    position:  relative;
 }
 
+.card .card-image .card-title {
+    width: 100%;
+    background-color: #79554838;
+    padding: 0px;
+}
 

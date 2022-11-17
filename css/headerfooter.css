@@ -5,7 +5,7 @@ html{
 .menu a {
   padding: 5px;
   font-family: "Century Gothic";
-  font-size: 22px;
+  font-size: 1rem;
   color: #573c14;
   text-decoration: none;
 }
@@ -61,6 +61,12 @@ html{
 
 .container .divider{
   background-color: #79554880;
+}
+
+a.active{
+  font-size: 1.2rem;
+  color: #795548;
+  font-weight: bold;
 }
 
 

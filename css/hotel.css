@@ -51,7 +51,7 @@
   .out{
     padding: 5px 2rem;
     font-size: 20px;
-    color: antiquewhite!important;
+    color: white!important;
     font-family: 'Verdana Pro Black', sans-serif;
     background-color: #795548!important;
     margin-bottom: 15px;
@@ -94,7 +94,8 @@
   }
 
   .video-container{
-    padding-bottom: 40%!important;
+    padding-bottom: 35%!important;
+    margin-bottom: 5%!important;
   }
 
   .ubi{

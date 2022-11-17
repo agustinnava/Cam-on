@@ -91,3 +91,15 @@ footer{
     padding-bottom: 3rem;
     padding-left: 0.8rem;
 }
+
+.btn-floating {
+    background-color:#795548!important;
+}
+
+.btn-floating:hover {
+    background-color:antiquewhite!important;
+}
+
+.btn-floating:hover i{
+    color: black!important;
+}
