@@ -37,6 +37,11 @@ html{
 
 .card-image{
     border-bottom: 3px solid #EADDC4;
+    
+}
+
+.card .responsive-img{
+    height: 200px!important;
 }
 
 .dropdown-content li>a, .dropdown-content li>span {
@@ -57,6 +62,7 @@ html{
 
 .card .card-image .card-title {
     width: 100%;
+
     background-color: #79554838;
     padding: 0px;
 }

@@ -140,3 +140,25 @@
   .timepicker-plate{
     background-color: antiquewhite!important;
   }
+
+  .timepicker-canvas-bearing {
+    stroke: none;
+    fill: #795548!important;;
+}
+
+.timepicker-canvas-bg {
+  stroke: none;
+  fill: #795548!important;
+}
+
+.timepicker-canvas line {
+  stroke: #795548!important;
+}
+
+.datepicker-table td.is-today {
+  color: #795548!important;
+}
+
+.datepicker-table td.is-selected {
+  background-color: antiquewhite!important;
+}
