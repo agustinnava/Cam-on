@@ -20,11 +20,6 @@ html{
   background-color: antiquewhite;
 }
 
-.tienda-body img{
-  margin: 0;
-  width: 100%;
-}
-
 .shop-icon{
   position:absolute;
   top: 5%!important;

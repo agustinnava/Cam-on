@@ -9,13 +9,6 @@ body{
     margin-bottom: 250px;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #2c3440;
-    padding-top: 10px;
-}
   
 .planificador h1{
     font-size: 2rem;
@@ -45,6 +38,7 @@ footer{
 .video-container{
     margin-top: 2rem;
     height: 30rem !important;
+    margin-bottom: 30%;
 
 }
 
@@ -125,4 +119,4 @@ footer{
 
 .datepicker-table td.is-selected {
   background-color: #795548!important;
-}
+} 

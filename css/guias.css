@@ -37,7 +37,6 @@ html{
 
 .card-image{
     border-bottom: 3px solid #EADDC4;
-    
 }
 
 .card .responsive-img{
@@ -45,24 +44,23 @@ html{
 }
 
 .dropdown-content li>a, .dropdown-content li>span {
-    color: #795548;
+    color: #795548!important;
 }
 
 .select-wrapper input.select-dropdown {
-    border-bottom: 1px solid #795548;
+    border-bottom: 1px solid #795548!important;
 }
 
 .select-wrapper input.select-dropdown:focus {
-    border-bottom: 1px solid #795548;
+    border-bottom: 1px solid #795548!important;
 }
 
 .select-wrapper input.select-dropdown{
-   position:  relative;
+   position:  relative!important;
 }
 
 .card .card-image .card-title {
     width: 100%;
-
     background-color: #79554838;
     padding: 0px;
 }
